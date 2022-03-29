@@ -1,0 +1,20 @@
+2022-03-28 17:06:54.716 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome=97 (valid until 2022-03-29 11:37:32)
+2022-03-28 17:06:54.721 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome97=97.0.4692.71 (valid until 2022-03-29 11:37:32)
+2022-03-28 17:06:54.721 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 97.0.4692.71 (since Google Chrome 97 is installed in your machine)
+2022-03-28 17:06:54.740 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 97.0.4692.71 found in cache
+2022-03-28 17:06:54.741 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/romankim/.m2/repository/webdriver/chromedriver/mac64/97.0.4692.71/chromedriver
+2022-03-28 17:06:54.775 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome=97 (valid until 2022-03-29 11:37:32)
+2022-03-28 17:06:54.777 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome97=97.0.4692.71 (valid until 2022-03-29 11:37:32)
+2022-03-28 17:06:54.777 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 97.0.4692.71 (since Google Chrome 97 is installed in your machine)
+2022-03-28 17:06:54.781 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 97.0.4692.71 found in cache
+2022-03-28 17:06:54.783 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/romankim/.m2/repository/webdriver/chromedriver/mac64/97.0.4692.71/chromedriver
+2022-03-28 17:06:54.794 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome=97 (valid until 2022-03-29 11:37:32)
+2022-03-28 17:06:54.795 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome97=97.0.4692.71 (valid until 2022-03-29 11:37:32)
+2022-03-28 17:06:54.799 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 97.0.4692.71 (since Google Chrome 97 is installed in your machine)
+2022-03-28 17:06:54.802 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 97.0.4692.71 found in cache
+2022-03-28 17:06:54.804 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/romankim/.m2/repository/webdriver/chromedriver/mac64/97.0.4692.71/chromedriver
+2022-03-28 17:06:54.819 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome=97 (valid until 2022-03-29 11:37:32)
+2022-03-28 17:06:54.820 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome97=97.0.4692.71 (valid until 2022-03-29 11:37:32)
+2022-03-28 17:06:54.821 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 97.0.4692.71 (since Google Chrome 97 is installed in your machine)
+2022-03-28 17:06:54.829 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 97.0.4692.71 found in cache
+2022-03-28 17:06:54.831 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/romankim/.m2/repository/webdriver/chromedriver/mac64/97.0.4692.71/chromedriver
