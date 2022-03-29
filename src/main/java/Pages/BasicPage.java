@@ -2,6 +2,7 @@ package Pages;
 
 import Utils.UseCaseBase;
 import org.apache.commons.io.FileUtils;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -64,4 +65,16 @@ public class BasicPage {
             e.printStackTrace();
         }
     }
+
+    public void captureElement() throws IOException {
+        GetsScreenshot getsScreenshot = (GetsScreenshot) webDriver;
+        File file = getsScreenshot.getScreenshotAs(OutputType.FILE);
+        try{
+            FileUtils.copyFile(file, new File("logo.png"));
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+    }
 }
+
+
