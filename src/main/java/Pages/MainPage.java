@@ -28,6 +28,8 @@ public class MainPage extends BasicPage {
     private static final String CART_PAGE = "//* [@class = 'icon icon-cart']";
     private static final String CURRENCY_OPTION = "//span[@class = 'currency-converter-currency-button cbb-desktop-view skiptranslate notranslate']";
     public static final String CURRENCY_GBP = "//*[text()='GBP']";
+    public static final String LOGO_IMAGE = "//img[@src='//cdn.shopify.com/s/files/1/1788/1145/files/logo_kidkiddos_line_web6_600x_2x_1_1_600x.png?v=1623743080' ]";
+
 
 
 
@@ -146,6 +148,9 @@ public class MainPage extends BasicPage {
     }
     public boolean isCurrencyDropDownVisible(){
         return elementExist(CURRENCY_GBP);
+    }
+    public boolean captureKiddosLogo(){
+        return elementExist(LOGO_IMAGE);
     }
 
 
