@@ -55,14 +55,6 @@ public class MainPageTest extends UseCaseBase {
     }
 
     @Test
-    public void ukrainianPageTest() {
-        logger.info("ukrainianPageTest is running");
-        UkrainianPage ukrainianPage = mainPage.ukrainianPage();
-        boolean isOpen1 = ukrainianPage.isPageTitleVisible();
-        assertTrue(isOpen1);
-    }
-
-    @Test
     public void spanishPageTest() {
         logger.info("spanishPageTest is running");
         SpanishPage spanishPage = mainPage.spanishPage();

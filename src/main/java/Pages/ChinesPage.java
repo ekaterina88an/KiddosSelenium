@@ -6,4 +6,6 @@ public class ChinesPage extends BasicPage {
     public boolean isPageTitleVisible() {
         return elementExist(CHINESE_PAGE_HEADER);
     }
+
+
 }

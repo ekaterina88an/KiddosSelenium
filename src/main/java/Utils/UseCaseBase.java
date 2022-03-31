@@ -6,11 +6,18 @@ package Utils;
 import Pages.BasicPage;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import java.sql.Driver;
 
 public class UseCaseBase {
     private static WebDriver webDriver; //peredaet komu to
     private static BasicPage page; //sozdaet Basic Page(roditel vseh pages)
+
 
 
     @BeforeAll

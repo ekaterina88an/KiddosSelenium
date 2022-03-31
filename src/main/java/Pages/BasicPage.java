@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.JavascriptExecutor;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,6 +15,7 @@ import java.io.IOException;
 public class BasicPage {
     protected static WebDriver webDriver;
     protected static WebDriverWait wait;
+
     //pomogaet podojdat nekotoroe vremya
 
     //poluchaet webDriver iz classa UseCaseBase
@@ -65,16 +67,22 @@ public class BasicPage {
             e.printStackTrace();
         }
     }
+    public void byVisibleElement(String xpath) {
 
-    public void captureElement() throws IOException {
-        GetsScreenshot getsScreenshot = (GetsScreenshot) webDriver;
-        File file = getsScreenshot.getScreenshotAs(OutputType.FILE);
-        try{
-            FileUtils.copyFile(file, new File("logo.png"));
-        }catch (IOException e){
-            e.printStackTrace();
-        }
+        JavascriptExecutor js = (JavascriptExecutor) webDriver;
+
+        //Locating element by link text and store in variable "Element"
+        WebElement Element = webDriver.findElement(By.xpath(xpath));
+
+        // Scrolling down the page till the element is found
+        js.executeScript("arguments[0].scrollIntoView();", Element);
     }
-}
+    public void closePopUp(){
+        findElementByXpath("//i [@class='_close-icon']").click();
+    }
+
+
+    }
+
 
 
